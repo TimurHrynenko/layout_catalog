@@ -8,11 +8,9 @@
   align-content: space-between;
 
   &__card {
+    margin-top: 50px;
     &:not(:nth-child(4n)) {
       margin-right: 48px;
-    }
-    &:nth-child(4n+1) {
-      margin-top: 50px;
     }
   }
 }
