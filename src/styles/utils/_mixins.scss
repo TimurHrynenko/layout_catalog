@@ -8,3 +8,7 @@
   line-height: 13px;
   font-size: 11px;
 }
+
+@mixin linksHoverTransition {
+  transition: all 0.4s ease;
+}
