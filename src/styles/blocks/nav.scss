@@ -20,7 +20,8 @@
     font-weight: 500;
     color: #000;
     text-transform: uppercase;
-    @include linksHoverTransition;
+    @include linksHoverTransitionSpeed;
+    transition-property: color;
 
     &:hover {
       color: $primary-color;

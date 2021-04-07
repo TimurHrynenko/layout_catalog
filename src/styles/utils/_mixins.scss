@@ -9,6 +9,6 @@
   font-size: 11px;
 }
 
-@mixin linksHoverTransition {
-  transition: all 0.4s ease;
+@mixin linksHoverTransitionSpeed {
+  transition-duration: 0.4s;
 }
