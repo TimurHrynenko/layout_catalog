@@ -1,15 +1,7 @@
 .cards {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, $card-max-width);
+  gap: 50px 48px;
   max-width: getCardContainerWidth($card-max-width, $card-margin-size, 4);
   align-items: baseline;
-  align-content: space-between;
-
-  &__card {
-    margin-top: 50px;
-    &:not(:nth-child(4n)) {
-      margin-right: 48px;
-    }
-  }
 }
